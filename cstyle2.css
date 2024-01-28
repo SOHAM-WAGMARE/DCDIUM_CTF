@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #333; /* Light gray background */
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+.signup-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff; /* White background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle box shadow */
+}
+h1 {
+    text-align: center;
+    color: #333; /* Dark gray text color */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 8px;
+    color: #555; /* Medium gray text color */
+}
+
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50; /* Blue color */
+    color: #fff; /* White text color */
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2d642f; /* Darker blue on hover */
+}
+
+.signup-link {
+    margin-top: 20px;
+    color: #555; /* Medium gray text color */
+}
+
+.signup-link a {
+    text-decoration: none;
+    color: #4CAF50; /* Blue color */
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    color: #2d642f; /* Darker blue on hover */
+}
+
+.login-link {
+    margin-top: 20px;
+    color: #555; /* Medium gray text color */
+}
+
+.login-link a {
+    text-decoration: none;
+    color: #4CAF50; /* Blue color */
+    font-weight: bold;
+}
+
+.login-link a:hover {
+    color: #2d642f; /* Darker blue on hover */
+}
